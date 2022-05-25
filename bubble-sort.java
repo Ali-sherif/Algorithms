@@ -1,8 +1,8 @@
 ﻿void bubbleSort(int[] arr) {
-
     int size = arr.length;
+    boolean swapped;
     for (int i = 0; i < size; i++) {
-        boolean swapped = false;
+        swapped = false;
         for (int j = 0; j < size - i - 1; j++) {
             if (arr[j] > arr[j + 1]) {
 
